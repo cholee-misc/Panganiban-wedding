@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ming Xi & Mario Ho — Ceremony</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  color:#28231f;
+  font-family:"Montserrat",sans-serif;
+  background:transparent;
+}
+
+img{display:block;max-width:100%}
+
+.container{
+  width:min(1050px,88%);
+  margin:auto;
+}
+
+nav{
+  padding:28px 5%;
+  display:flex;
+  justify-content:center;
+  gap:35px;
+}
+
+nav a{
+  color:#28231f;
+  text-decoration:none;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  font-size:9px;
+}
+
+.header{
+  padding:80px 20px 60px;
+  text-align:center;
+}
+
+.label{
+  font-size:9px;
+  letter-spacing:4px;
+  text-transform:uppercase;
+}
+
+h1,h2{
+  font-family:"Cormorant Garamond",serif;
+  font-style:italic;
+  font-weight:400;
+}
+
+h1{
+  font-size:clamp(60px,8vw,90px);
+}
+
+h2{font-size:55px}
+
+.line{
+  width:45px;
+  height:1px;
+  background:#b7a17e;
+  margin:25px auto;
+}
+
+.ceremony{
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:70px;
+  align-items:center;
+}
+
+.ceremony-photo{
+  text-align:center;
+}
+
+.ceremony-photo img{
+  width:auto;
+  max-width:100%;
+  max-height:650px;
+  margin:auto;
+  object-fit:contain;
+}
+
+.info-item{
+  margin-bottom:30px;
+}
+
+.info-item span{
+  font-size:9px;
+  letter-spacing:4px;
+  text-transform:uppercase;
+}
+
+.info-item p{
+  margin-top:7px;
+  font-family:"Cormorant Garamond",serif;
+  font-size:20px;
+  line-height:1.5;
+}
+
+.gallery-title{
+  padding:110px 0 45px;
+  text-align:center;
+}
+
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:15px;
+}
+
+.gallery-item{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+
+.gallery img{
+  width:100%;
+  height:auto;
+  max-height:580px;
+  object-fit:contain;
+}
+
+.couple-title{
+  text-align:center;
+  padding:110px 0 45px;
+}
+
+.couple-gallery{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:15px;
+}
+
+.couple-gallery img{
+  width:100%;
+  height:auto;
+  max-height:600px;
+  object-fit:contain;
+}
+
+.couple-gallery .wide{
+  grid-column:1/-1;
+  max-height:700px;
+  width:auto;
+  margin:auto;
+}
+
+.end{
+  padding:110px 20px;
+  text-align:center;
+}
+
+.end img{
+  width:130px;
+  height:auto;
+  margin:auto;
+}
+
+.end h2{
+  margin-top:25px;
+  font-size:42px;
+}
+
+.end p{
+  margin-top:10px;
+  font-size:9px;
+  letter-spacing:4px;
+  text-transform:uppercase;
+}
+
+@media(max-width:700px){
+  nav{gap:18px}
+
+  .ceremony{
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+
+  .info{
+    text-align:center;
+  }
+
+  .gallery,
+  .couple-gallery{
+    grid-template-columns:1fr;
+  }
+
+  .couple-gallery .wide{
+    grid-column:auto;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">The Couple</a>
+<a href="wedding.html">The Wedding</a>
+<a href="ceremony.html">Ceremony</a>
+</nav>
+
+
+<header class="header">
+
+<div class="label">Mont-Saint-Michel</div>
+
+<h1>The Ceremony</h1>
+
+<div class="line"></div>
+
+</header>
+
+
+<main class="container">
+
+
+<!-- CEREMONY -->
+<section class="ceremony">
+
+<div class="ceremony-photo">
+
+<img
+src="https://drive.google.com/thumbnail?id=1SJLa8cAjYJDDKU8WlNo0nc7ZgQeQzjpA&sz=w1200"
+alt="Ming Xi and Mario Ho ceremony">
+
+</div>
+
+
+<div class="info">
+
+<div class="info-item">
+<span>Date</span>
+<p>June 1, 2026</p>
+</div>
+
+<div class="info-item">
+<span>Venue</span>
+<p>
+Mont-Saint-Michel Abbey<br>
+Normandy, France
+</p>
+</div>
+
+<div class="info-item">
+<span>The Bride</span>
+<p>
+Ming Xi wore custom
+Dior Haute Couture.
+</p>
+</div>
+
+<div class="info-item">
+<span>The Ceremony</span>
+<p>
+A personal celebration shared
+with their children, family
+and closest guests.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CEREMONY PHOTOS -->
+<section class="gallery-title">
+
+<div class="label">01 June 2026</div>
+
+<h2>Wedding Moments</h2>
+
+<div class="line"></div>
+
+</section>
+
+
+<section class="gallery">
+
+<div class="gallery-item">
+<img src="https://drive.google.com/thumbnail?id=1WtpoM4TtO8FOf5IOB3Sff7erQrSyAQ1X&sz=w1000">
+</div>
+
+<div class="gallery-item">
+<img src="https://drive.google.com/thumbnail?id=1n7hLI20n3B3riB_cWAKmFfyCB45kM3M9&sz=w1000">
+</div>
+
+<div class="gallery-item">
+<img src="https://drive.google.com/thumbnail?id=1zcGzhW0Lg_IW66CSi2nJ-3iQONG1_jwA&sz=w1000">
+</div>
+
+<div class="gallery-item">
+<img src="https://drive.google.com/thumbnail?id=1R_Fzg7NCgwCbjpMljJ6-op6Jw7SR4-Qg&sz=w1000">
+</div>
+
+<div class="gallery-item">
+<img src="https://drive.google.com/thumbnail?id=1f5erQC97JUnbNtHqxHZzc8jdEA23tad0&sz=w1000">
+</div>
+
+</section>
+
+
+<!-- MORE OF THEM -->
+<section class="couple-title">
+
+<div class="label">Together</div>
+
+<h2>Ming & Mario</h2>
+
+<div class="line"></div>
+
+</section>
+
+
+<section class="couple-gallery">
+
+<img
+class="wide"
+src="https://drive.google.com/thumbnail?id=1mCbslHTbyvLevyft7VOtPZXg__kNfTFC&sz=w1600">
+
+<img src="https://drive.google.com/thumbnail?id=1Tj8OiD-WMgC9LmqdG-PKFYrocPaz4YsS&sz=w1000">
+
+<img src="https://drive.google.com/thumbnail?id=1UwJqtD_gIHjAzA0bYNCm4VoKo8yC-9t3&sz=w1000">
+
+<img src="https://drive.google.com/thumbnail?id=1x7woDK7mxX-w5LLLNCHQ67TJ8GU1P3FT&sz=w1000">
+
+<img src="https://drive.google.com/thumbnail?id=1y04yGRR5R-nSaR5GYAGxbwxBwBnC95FF&sz=w1000">
+
+</section>
+
+</main>
+
+
+<!-- END -->
+<footer class="end">
+
+<img
+src="https://drive.google.com/thumbnail?id=11XsPMNlXIrfDsMMiwj306naZXnuzr-kh&sz=w500"
+alt="Ming Xi and Mario Ho monogram">
+
+<h2>Ming Xi & Mario Ho</h2>
+
+<p>
+Mont-Saint-Michel · 01.06.2026
+</p>
+
+</footer>
+
+</body>
+</html>

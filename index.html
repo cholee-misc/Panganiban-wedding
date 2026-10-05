@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ming Xi & Mario Ho — The Couple</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  color:#28231f;
+  font-family:"Montserrat",sans-serif;
+  background:transparent;
+}
+
+img{display:block;max-width:100%}
+
+.container{
+  width:min(1050px,88%);
+  margin:auto;
+}
+
+nav{
+  padding:28px 5%;
+  display:flex;
+  justify-content:center;
+  gap:35px;
+}
+
+nav a{
+  color:#28231f;
+  text-decoration:none;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  font-size:9px;
+}
+
+nav a:hover{opacity:.55}
+
+.hero{
+  width:min(1150px,92%);
+  margin:auto;
+  position:relative;
+}
+
+.hero img{
+  width:100%;
+  max-height:720px;
+  object-fit:contain;
+}
+
+.hero-text{
+  text-align:center;
+  padding:45px 20px 75px;
+}
+
+h1,h2{
+  font-family:"Cormorant Garamond",serif;
+  font-weight:400;
+  font-style:italic;
+}
+
+.hero h1{
+  font-size:clamp(55px,8vw,90px);
+  line-height:.9;
+}
+
+.small{
+  margin-top:20px;
+  font-size:9px;
+  letter-spacing:4px;
+  text-transform:uppercase;
+}
+
+.line{
+  width:45px;
+  height:1px;
+  background:#b7a17e;
+  margin:25px auto;
+}
+
+.profile{
+  padding:80px 0;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:70px;
+  align-items:center;
+}
+
+.profile-photo{
+  text-align:center;
+}
+
+.profile-photo img{
+  width:auto;
+  max-width:100%;
+  max-height:600px;
+  margin:auto;
+  object-fit:contain;
+}
+
+.label{
+  font-size:9px;
+  letter-spacing:4px;
+  text-transform:uppercase;
+}
+
+.profile h2{
+  font-size:65px;
+  margin-top:5px;
+}
+
+.profile .line{
+  margin:22px 0;
+}
+
+.profile p{
+  max-width:420px;
+  font-family:"Cormorant Garamond",serif;
+  font-size:20px;
+  line-height:1.6;
+}
+
+.monogram{
+  padding:45px 20px;
+  text-align:center;
+}
+
+.monogram img{
+  width:170px;
+  height:auto;
+  margin:auto;
+}
+
+.mario .text{
+  order:1;
+  text-align:right;
+}
+
+.mario .profile-photo{order:2}
+
+.mario .line{
+  margin-left:auto;
+}
+
+.mario p{
+  margin-left:auto;
+}
+
+.next{
+  padding:80px 20px 100px;
+  text-align:center;
+}
+
+.next a{
+  color:#28231f;
+  text-decoration:none;
+  font-size:10px;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  border-bottom:1px solid #b7a17e;
+  padding-bottom:8px;
+}
+
+@media(max-width:700px){
+  nav{gap:18px}
+  .hero img{max-height:520px}
+
+  .profile{
+    grid-template-columns:1fr;
+    gap:35px;
+  }
+
+  .profile-photo img{max-height:500px}
+
+  .profile h2{font-size:52px}
+
+  .mario .profile-photo{order:1}
+
+  .mario .text{
+    order:2;
+    text-align:left;
+  }
+
+  .mario .line{margin-left:0}
+  .mario p{margin-left:0}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">The Couple</a>
+  <a href="wedding.html">The Wedding</a>
+  <a href="ceremony.html">Ceremony</a>
+</nav>
+
+
+<!-- HERO -->
+<section class="hero">
+
+<img
+src="https://drive.google.com/thumbnail?id=13IQPZDJJrf161IZVNjulbPcNFRG_PHXM&sz=w1600"
+alt="Ming Xi and Mario Ho">
+
+<div class="hero-text">
+  <h1>Ming Xi & Mario Ho</h1>
+  <div class="line"></div>
+  <div class="small">
+    01 June 2026 · Mont-Saint-Michel · France
+  </div>
+</div>
+
+</section>
+
+
+<!-- MING -->
+<section class="container profile">
+
+<div class="profile-photo">
+<img
+src="https://drive.google.com/thumbnail?id=1JBxFacsZ_uJEg-t-DAHF9M-2rHMDpeX9&sz=w1200"
+alt="Ming Xi">
+</div>
+
+<div class="text">
+  <div class="label">The Bride</div>
+  <h2>Ming Xi</h2>
+  <div class="line"></div>
+
+  <p>
+    Ming Xi, also known as Xi Mengyao, is a Chinese
+    model recognized internationally for her career
+    in fashion.
+  </p>
+</div>
+
+</section>
+
+
+<!-- MONOGRAM -->
+<section class="monogram">
+
+<img
+src="https://drive.google.com/thumbnail?id=11XsPMNlXIrfDsMMiwj306naZXnuzr-kh&sz=w600"
+alt="Ming Xi and Mario Ho monogram">
+
+</section>
+
+
+<!-- MARIO -->
+<section class="container profile mario">
+
+<div class="text">
+  <div class="label">The Groom</div>
+  <h2>Mario Ho</h2>
+  <div class="line"></div>
+
+  <p>
+    Mario Ho is a businessman and entrepreneur from
+    Macau. Together, Ming and Mario have built a life
+    centered around their marriage and family.
+  </p>
+</div>
+
+<div class="profile-photo">
+<img
+src="https://drive.google.com/thumbnail?id=1EIV_xVs2ZUp_-afIoWE3lLXmf_iz2dgJ&sz=w1200"
+alt="Mario Ho">
+</div>
+
+</section>
+
+
+<div class="next">
+<a href="wedding.html">Discover the Wedding →</a>
+</div>
+
+</body>
+</html>
